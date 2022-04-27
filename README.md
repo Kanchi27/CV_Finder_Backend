@@ -1,3 +1,4 @@
+********************API Details********************************
 a)Endpoint: 
 POST http://localhost:8080/api/uploadResumeDetails 
 Takes in the body of the POST request, a json format of name, current job title, current job  description, current job company. Candidate name is in <first name> space <last name>  format. e.g. John<space>Doe 
@@ -19,9 +20,16 @@ You should return the resume result(s) that match Both the first name and the la
 In case both first name and last name do not BOTH match a candidate, the api response should return resumes with matches for the first name and last name independently. i.e. return  all matches for John (in first name), and all matches for Doe (in last name). 
 e.g. John Welkins and Mary Doe resumes will be returned, because either the first name or the  last name is matching. 
 
+********************API Details********************************
+    
+******************** MySql Server *********************
+    
+Start Mysql Server : mysql.server start
+Stop MySql Server : mysql.server stop
 
-
-
+    
+******************** MySql Server *********************
+    
 Steps to setup my sql server:
 
 
